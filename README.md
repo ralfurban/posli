@@ -1,2 +1,2 @@
 # posli
-Posli placeholder UI
+Posli responsive UI
