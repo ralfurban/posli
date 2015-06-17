@@ -1,0 +1,880 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-family:'Museosans 500', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-family:'Museosans 500', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 31px;
+}
+a {
+  color: #00e;
+}
+.button {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  min-width: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 21px;
+  background-image: url('../images/fb-logo.png');
+  background-size: 48px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.posli-button {
+  width: 148px;
+  height: 46px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 4px;
+  background-color: #2ebcea;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-family:'Museosans 700', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button.posli-button:hover {
+  background-color: #59cdf2;
+  background-image: url('../images/button-bg.png');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+.button.fb-button {
+  width: 168px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 12px;
+  border-radius: 4px;
+  background-color: #3563e7;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  font-family:'Museosans 700', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.button.fb-button.tw-button {
+  background-color: #25b3f3;
+}
+.button.twitter-button {
+  width: 48px;
+  height: 48px;
+  min-width: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0px;
+  border-radius: 21px;
+  background-color: transparent;
+  background-image: url('../images/tw-logo.png');
+}
+.button.twitter-button:hover {
+  background-image: url('../images/tw-logo-2.png');
+}
+.button.twitter-button:active {
+  background-image: url('../images/tw-logo-2.png');
+}
+.button.twitter-button.facebbok-button {
+  background-image: url('../images/fb-logo.png');
+}
+.button.twitter-button.facebbok-button:hover {
+  background-image: url('../images/fb-logo-2.png');
+}
+.intro-section {
+  height: 650px;
+  background-image: url('../images/intro.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.posli-section {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 735px;
+}
+.everywhere-section {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 702px;
+  background-color: #2ebcea;
+}
+.task-management-section {
+  background-color: #f6f9fa;
+}
+.features-section {
+  height: 608px;
+  background-color: white;
+}
+.signup-section {
+  height: 536px;
+  background-color: #243139;
+}
+.signup-heading {
+  display: block;
+  margin: 129px auto 39px;
+  font-family:'Museosans 700', sans-serif;
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.email {
+  width: 330px;
+  height: 46px;
+  margin-left: 0px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  float: left;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-family:'Museosans 500', sans-serif;
+  color: #8d9ea4;
+  font-size: 15px;
+  font-weight: 500;
+}
+.email:focus {
+  color: #414647;
+  font-size: 15px;
+}
+.signup-form {
+  display: block;
+  width: 465px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Museosans 500', sans-serif;
+}
+.signup-form.thanks {
+  width: 560px;
+  text-align: center;
+}
+.request-button {
+  width: 135px;
+  height: 46px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  float: right;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #2ebcea;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-family:'Museosans 700', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.request-button:hover {
+  background-color: #59cdf2;
+}
+.request-button:active {
+  background-color: #0090be;
+}
+.signup-text {
+  display: block;
+  width: 638px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Museosans 300', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+}
+.share-block {
+  display: block;
+  width: 210px;
+  margin: 77px auto 20px;
+}
+.share-text {
+  margin-top: 11px;
+  margin-right: 12px;
+  padding-top: 0px;
+  float: left;
+  font-family:'Museosans 300', sans-serif;
+  color: white;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.features-image {
+  display: block;
+  margin-top: 106px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.feature-heading {
+  margin-top: 59px;
+  margin-bottom: 27px;
+  font-family:'Museosans 700', sans-serif;
+  color: #060606;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.feature-text {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family:'Museosans 300', sans-serif;
+  color: #252c2e;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.feature-column {
+  height: 500px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.iphone-image {
+  margin-left: -46px;
+  float: left;
+}
+.task-management-text {
+  margin-right: 0px;
+  margin-left: 459px;
+  font-family:'Museosans 300', sans-serif;
+  color: #252c2e;
+  font-weight: 300;
+}
+.task-management-heading {
+  margin: 245px 0px 30px 459px;
+  font-family:'Museosans 700', sans-serif;
+  color: #060606;
+  font-weight: 700;
+}
+.task-management-div {
+  display: block;
+  width: 960px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.everywhere-div {
+  width: 960px;
+}
+.everywhere-text {
+  display: block;
+  width: 690px;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Museosans 300', sans-serif;
+  color: white;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+}
+.everywhere-heading {
+  margin-top: 106px;
+  font-family:'Museosans 700', sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.everywhere-row {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.everywhere-col-image {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin: 82px auto auto;
+}
+.everywhere-col-heading {
+  margin-top: 53px;
+  margin-bottom: 9px;
+  font-family:'Museosans 700', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.everywhere-col-text {
+  font-family:'Museosans 300', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+}
+.posli-div {
+  overflow-x: visible;
+  overflow-y: visible;
+  width: 100%;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.posli-heading {
+  width: 393px;
+  margin-top: 246px;
+  margin-bottom: 28px;
+  font-family:'Museosans 700', sans-serif;
+  color: #060606;
+  font-weight: 700;
+}
+.posli-text {
+  width: 448px;
+  margin-bottom: 21px;
+  font-family:'Museosans 300', sans-serif;
+  color: #252c2e;
+  font-weight: 300;
+}
+.macbook {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 154px;
+  margin-right: -265px;
+  margin-left: 0px;
+  float: right;
+}
+.intro-div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.54);
+}
+.top-menu-bar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 70px;
+  margin-top: 580px;
+  background-color: rgba(20, 20, 20, 0.70);
+}
+.top-menu-container {
+  max-width: 960px;
+}
+.top-menu-nav {
+  position: static;
+  display: block;
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  text-transform: none;
+}
+.posli-logo {
+  display: block;
+  margin-top: 147px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.intro-heading {
+  display: block;
+  width: 500px;
+  margin: 21px auto 20px;
+  font-family:'Museosans 500', sans-serif;
+  color: white;
+  font-size: 28px;
+  line-height: 31px;
+  font-weight: 500;
+  text-align: center;
+}
+.top-menu-item {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 25px 29px 20px;
+  -webkit-transition: border 500ms ease;
+  transition: border 500ms ease;
+  font-family:'Museosans 500', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: none;
+}
+.top-menu-item:hover {
+  border-bottom: 5px solid #2ebcea;
+  color: white;
+}
+.top-menu-item.w--current {
+  color: white;
+}
+.sticky-nav-bar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 64px;
+  background-color: #232323;
+}
+.posli-bar-logo {
+  margin-top: 14px;
+  margin-bottom: 15px;
+  float: left;
+}
+.posli-logo-text {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  float: right;
+  font-family:'Museosans 900', sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.bar-logo-link {
+  margin-left: -10px;
+}
+.bar-menu-item {
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 25px 28px 20px;
+  -webkit-transition: border 500ms ease;
+  transition: border 500ms ease;
+  font-family:'Museosans 500', sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.bar-menu-item:hover {
+  border-bottom: 5px solid #2ebcea;
+  color: white;
+}
+.bar-menu-item.w--current {
+  color: white;
+}
+.bar-menu-item.w--current:hover {
+  color: white;
+}
+.bar-menu-item.w--current:active {
+  color: white;
+}
+.bar-menu-item.w--current:focus {
+  border-bottom: 5px solid #2ebcea;
+  color: white;
+}
+.bar-menu {
+  margin-right: -28px;
+}
+.success-message {
+  background-color: transparent;
+  text-align: center;
+}
+.success-text {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.form-display {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  width: 465px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.error-message {
+  background-color: transparent;
+  font-weight: 500;
+}
+.bar-container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 991px) {
+  .button.posli-button {
+    margin-left: 10px;
+  }
+  .posli-section {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .task-management-section {
+    width: 100%;
+  }
+  .iphone-image {
+    margin-left: 20px;
+  }
+  .task-management-text {
+    margin-left: 420px;
+  }
+  .task-management-heading {
+    margin-left: 420px;
+  }
+  .task-management-div {
+    width: 730px;
+  }
+  .everywhere-div {
+    width: 730px;
+  }
+  .posli-container {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+  .posli-div {
+    overflow-x: visible;
+    overflow-y: visible;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .posli-heading {
+    margin-left: 10px;
+  }
+  .posli-text {
+    margin-left: 10px;
+  }
+  .sticky-nav-bar {
+    width: 100%;
+  }
+  .bar-logo-link {
+    margin-left: 0px;
+  }
+  .bar-menu {
+    margin-right: 0px;
+  }
+  .bar-container {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .button.posli-button {
+    margin-left: 30px;
+  }
+  .posli-section {
+    height: 630px;
+  }
+  .signup-heading {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .signup-text {
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .iphone-image {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -600px;
+    margin-left: -1000px;
+    float: none;
+  }
+  .task-management-text {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .task-management-heading {
+    display: block;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: left;
+  }
+  .task-management-div {
+    width: auto;
+    height: 933px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../images/iphone-2.png');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+  }
+  .everywhere-div {
+    width: auto;
+  }
+  .everywhere-text {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .everywhere-heading {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .everywhere-row {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .everywhere-column {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .posli-div {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .posli-heading {
+    margin-top: 160px;
+    margin-left: 30px;
+  }
+  .posli-text {
+    margin-left: 30px;
+  }
+  .macbook {
+    margin-top: 170px;
+  }
+  .posli-bar-logo {
+    margin-left: 30px;
+  }
+  .bar-menu {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .button.posli-button {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -500px;
+    margin-right: -500px;
+    float: right;
+  }
+  .button.fb-button {
+    width: 132px;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .button.fb-button.tw-button {
+    font-size: 12px;
+  }
+  .posli-section {
+    height: 615px;
+  }
+  .features-section {
+    height: 700px;
+  }
+  .signup-heading {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+  }
+  .email {
+    width: 200px;
+    height: 46px;
+    margin-left: 10px;
+  }
+  .signup-form.thanks {
+    width: auto;
+  }
+  .request-button {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .signup-text {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .features-image {
+    width: 40px;
+    margin-top: 46px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .feature-heading {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    text-align: left;
+  }
+  .feature-text {
+    text-align: left;
+  }
+  .feature-column {
+    height: auto;
+  }
+  .task-management-text {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .task-management-heading {
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 29px;
+  }
+  .task-management-div {
+    height: 776px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 0px;
+    background-size: contain;
+  }
+  .everywhere-text {
+    width: auto;
+    text-align: left;
+  }
+  .everywhere-heading {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+  }
+  .everywhere-row {
+    width: 682px;
+  }
+  .posli-div {
+    height: 536px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-image: url('../images/posli-macbook.png');
+    background-position: 50% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .posli-heading {
+    width: auto;
+    margin-top: 80px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .posli-text {
+    width: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .macbook {
+    margin-top: 0px;
+    margin-right: -500px;
+  }
+  .top-menu-bar {
+    margin-top: 580px;
+  }
+  .top-menu-nav {
+    width: auto;
+    text-align: center;
+  }
+  .intro-heading {
+    width: auto;
+  }
+  .top-menu-item {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .top-menu-item.w--current {
+    padding-right: 29px;
+  }
+  .form-display {
+    width: 320px;
+  }
+}
+
+@font-face {
+  font-family: 'Museosans 300';
+  src: url('../fonts/MuseoSans_300.woff') format('woff'), url('../fonts/MuseoSans_300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museosans 500';
+  src: url('../fonts/MuseoSans_500.woff') format('woff'), url('../fonts/MuseoSans_500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museosans 700';
+  src: url('../fonts/MuseoSans_700.woff') format('woff'), url('../fonts/MuseoSans_700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museosans 900';
+  src: url('../fonts/MuseoSans_900.woff') format('woff'), url('../fonts/MuseoSans_900.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
